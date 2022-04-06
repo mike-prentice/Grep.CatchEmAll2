@@ -1,16 +1,29 @@
 # Part 1
 ### a)
-
-
+grep beed filescan_00.1 > beedrill.txt
+grep blas filescan_00.1 > blastoise.txt
+grep bulb filescan_00.1 > bulbasaur.txt
+grep butt filescan_00.1 > butterfree.txt
+izard$ filescan_00.2 > charizard.txt
+mander$ filescan_00.2 > charmander.txt
+meleon$ filescan_00.2 > charmeleon.txt
+grep ivy filescan_00.3 > ivysaur.txt
+grep jigg filescan_00.4 > jiggly.txt
+grep meow filescan_00.3 > meow.txt
+grep pika filescan_00.3 > pikachu.txt
+grep psy filescan_00.4 > psyduck.txt
+grep squi filescan_00.4 > squirtle.txt
+grep ven filescan_00.4 > venusaur.txt
+grep wart filescan_00.4 > wartorle.txt
 
 
 ### b)
 
-
+captured folder
 
 ### c)
 
-
+listed in captured file names
 
 
 
@@ -24,15 +37,43 @@
 
 # Part 2
 ### a)
-
+15 total Pokemon
 
 
 
 
 
 ### b)
+mike@Zipcoders-MacBook-Pro forest % grep beed filescan_00.1 | wc -l
+      40
+mike@Zipcoders-MacBook-Pro forest % grep blas filescan_00.1 | wc -l
+      38
+mike@Zipcoders-MacBook-Pro forest % grep butt filescan_00.1 | wc -l
+      38
+mike@Zipcoders-MacBook-Pro forest % grep bulb filescan_00.1 | wc -l
+      30
+mike@Zipcoders-MacBook-Pro forest % grep mander$ filescan_00.2 | wc -l
+      36
+mike@Zipcoders-MacBook-Pro forest % grep izard$ filescan_00.2 | wc -l
+      40
+mike@Zipcoders-MacBook-Pro forest % grep meleon$ filescan_00.2 | wc -l
+      37
+mike@Zipcoders-MacBook-Pro forest % grep pika filescan_00.3 | wc -l
+      40
+mike@Zipcoders-MacBook-Pro forest % grep ivy filescan_00.3 | wc -l
+      33
+mike@Zipcoders-MacBook-Pro forest % grep meow filescan_00.3 | wc -l
+      33
+mike@Zipcoders-MacBook-Pro forest % grep jigg filescan_00.3 | wc -l
+      34
+mike@Zipcoders-MacBook-Pro forest % grep squi filescan_00.4 | wc -l
+      34
+mike@Zipcoders-MacBook-Pro forest % grep wart filescan_00.4 | wc -l
+      37
+mike@Zipcoders-MacBook-Pro forest % grep psy filescan_00.4 | wc -l
+      37
+mike@Zipcoders-MacBook-Pro forest % grep venu filescan_00.4 | wc -l
+      32
 
-
-
-
-
+ Pikachu/Beedrill: 40 lines.
+ Blastoise/Butterfree: 38 lines.
